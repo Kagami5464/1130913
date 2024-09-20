@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Red lantern Design</title> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheets" href="stylesheets/screen.css" type="text/css" />
+<head> -->定義文件標題、字元集、樣式、腳本和其他元資訊。
+    <title>Red lantern Design</title> -->網頁標籤。
+    <meta charset="UTF-8"> -->定義使用的字元集。
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->設定視窗以使您的網站在所有裝置上正常顯示。
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->IE相容模式設定，什麼版本IE 就用什麼版本的標準模式。
+    <link rel="stylesheet" href="css/style.css" type="text/css" /> -->透過<link/>連結到外部文件href="css/style.css"(文件路徑) ，type="text/css"說明調用的文件類型為CSS樣式。
 </head>
 
 <body>
@@ -20,19 +20,17 @@
     </header>
     <article id="mainContent">
         <section id="titleBar">
-            <img alt="tokyo buildings" src="images/tokyo.jpg" />
+            <img src="images/tokyo.jpg" alt="tokyo buildings" />
                 <hl>Red Lantern builds unique interfaces <span class="amp">&amp;</span>user experience</hl>
             </img>
         </section>
-        <section id="content">
+        <section>
             <h2>Welcome to the New Red Lantern Design</h2>
-            <p>Red Lantern is a small web design and consulting firm specializing in standards-based web design and developmaent. 
-                 Our goal is to build simple, beatiful webpages that make your information easy to find and your users happy.</p>
-            <p>If you or your company is interested in working with us, please check out our portfolio of design and branding eork and contact us with your project details.
-                We look forward to hearing from you and making your presence on the web a little simpler and easier to find.</p>
+            <p>Red Lantern is a small web design and consulting firm specializing</p>
+            <p>If you or your company is interested in working with us</p>
             <ul id="link-list">
                 <li><a title="View our portfolio" href="#">View our full portfolio</a></li>
-                <li><a title="Contact Red Lantern" href="#">Contact Red Lantern</a></li>
+                <li><a title="Contact Red Lantern" href="#"</li>
             </ul>
         </section>
         <section id="sidebar">
@@ -46,7 +44,7 @@
         </section>
     </article>
     <footer id="footer">
-        <p>Copyright &copy;Red Lantern Design,all rights reserved.</p>
+        <p>Copyright &copy;Red Lantern Design,all rights Reserved.</p>
     </footer>
 </body>
 

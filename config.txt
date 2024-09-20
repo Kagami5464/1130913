@@ -1,0 +1,4 @@
+上傳需於終端機輸入下列：
+
+git config --global user.name Kagami5464
+git config --global user.email a0976919813@gmail.com
