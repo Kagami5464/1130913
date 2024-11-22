@@ -44,7 +44,7 @@ server.get("/profolio", (req,res)=>{
 
 server.post("/contact_me",(req,res)=>{
     ContactDB,insert(req.body);
-    res.send("OK");
+    res.redirect("/#contact");
 })
 
 
